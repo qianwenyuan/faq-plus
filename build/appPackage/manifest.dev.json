@@ -1,0 +1,51 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "id": "05f9dad0-15b0-4888-95b7-d00727b62d02",
+    "packageName": "com.microsoft.teams.faqplus",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/index.html#/privacy",
+        "termsOfUseUrl": "https://www.example.com/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "resources/color.png",
+        "outline": "resources/outline.png"
+    },
+    "name": {
+        "short": "FaqPlus",
+        "full": "Full name for FaqPlus"
+    },
+    "description": {
+        "short": "A friendly FAQ bot that answers questions and connects you to experts.",
+        "full": "A friendly question and answer bot that answers commonly asked questions. If it can't answer, it will put you in touch with an expert as soon as they are available."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "5a5d9e9a-e780-4709-aece-f1a65826b76f",
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "faqplusdevbc7c78bot.azurewebsites.net"
+    ],
+    "webApplicationInfo": {
+        "id": "dc071ee4-cbfd-4066-8cf4-489920feb3fc",
+        "resource": "api://botid-5a5d9e9a-e780-4709-aece-f1a65826b76f"
+    }
+}

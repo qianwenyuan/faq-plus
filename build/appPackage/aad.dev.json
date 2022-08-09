@@ -1,0 +1,101 @@
+{
+    "id": "6201816b-4f5d-4421-b416-c31fd4c8a2a7",
+    "appId": "dc071ee4-cbfd-4066-8cf4-489920feb3fc",
+    "name": "FaqPlus-aad",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "cfc63071-1b83-4626-b46c-59f00dad6966",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "cfc63071-1b83-4626-b46c-59f00dad6966"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://botid-5a5d9e9a-e780-4709-aece-f1a65826b76f"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://faqplusdevbc7c78bot.azurewebsites.net/auth-end.html",
+            "type": "Web"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "appName": "FaqPlus",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "capabilities": [
+            "Bot",
+            "BotSSO"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-identity",
+            "fx-resource-bot",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio"
+        ],
+        "azureResources": []
+    },
+    "isFromSample": true,
+    "programmingLanguage": "typescript",
+    "version": "2.0.0",
+    "projectId": "78528c23-7464-4f09-bf54-bdaf59255c36",
+    "pluginSettings": {
+        "fx-resource-bot": {
+            "capabilities": []
+        }
+    }
+}

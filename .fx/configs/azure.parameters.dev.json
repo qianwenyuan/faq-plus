@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "provisionParameters": {
+            "value": {
+                "resourceBaseName": "faqplusdev{{state.solution.resourceNameSuffix}}",
+                "botAadAppClientId": "{{state.fx-resource-bot.botId}}",
+                "botAadAppClientSecret": "{{state.fx-resource-bot.botPassword}}",
+                "m365ClientId": "{{state.fx-resource-aad-app-for-teams.clientId}}",
+                "m365ClientSecret": "{{state.fx-resource-aad-app-for-teams.clientSecret}}",
+                "m365TenantId": "{{state.fx-resource-aad-app-for-teams.tenantId}}",
+                "m365OauthAuthorityHost": "{{state.fx-resource-aad-app-for-teams.oauthHost}}"
+            }
+        },
+        "configAdminUPNList": {
+          "value": "frankqian@microsoft.com"
+        },
+        "configAppClientId": {
+          "value": "a3c22241-8d58-492e-af99-e73464f7b63b"
+        },
+        "configAppTenantId": {
+          "value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        "qnaMakerSku": {
+          "value": "F0"
+        }
+    }
+}
